@@ -1,0 +1,15 @@
+{
+  "name": "Vexura Domains",
+  "version": "1.0.0-rc.1",
+  "module": "vexuradomains",
+  "type": "registrars",
+  "php": ">=8.1",
+  "extensions": [
+    "curl",
+    "json"
+  ],
+  "api": "https://api.vexura.eu/api/v1",
+  "installationPath": "modules/registrars/vexuradomains",
+  "billing": "prepaid",
+  "requiresBackendSubscriptionFix": true
+}
